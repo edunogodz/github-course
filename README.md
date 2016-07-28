@@ -100,7 +100,17 @@ ele coloca o arquivo pra ser comitado
 
 git commit -m "Add Readme.md"
 
-se editar de novo, volta a ser 
+se editar de novo, volta a ser untracked
 
+-Visualizando o Log
+git log
+git log --decorate
+git log --author="edunogodz"
+git shortlog
+git shortlog sn
+git log --graph
+git show (e uma hash)
 
-
+-Visualizando o Diff
+git diff - para ver o q foi alterado
+git diff --name-only - somente o arquivo modificado
