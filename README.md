@@ -114,3 +114,16 @@ git show (e uma hash)
 -Visualizando o Diff
 git diff - para ver o q foi alterado
 git diff --name-only - somente o arquivo modificado
+
+Desvazendo coisas
+altera algo salva
+ae depois dá
+git checkout README.md - q ele volta a versão anterior
+
+git reset HEAD
+remover da linha de staged para unstaged
+
+git reset pode ser
+--soft - ele vai pegar as modificações e voltar o commit, com o arquivo como unstaged
+--mixed- ele vai pegar as modificações e voltar o commit, com o arquivo antes do staged
+--hard - vai resetar todo o commit
