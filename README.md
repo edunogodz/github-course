@@ -98,6 +98,9 @@ o arquivo fica como untracked
 git add READM.md
 ele coloca o arquivo pra ser comitado
 
+git commit -m "Add Readme.md"
+
+se editar de novo, volta a ser 
 
 
 
