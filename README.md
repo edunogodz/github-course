@@ -127,3 +127,16 @@ git reset pode ser
 --soft - ele vai pegar as modificações e voltar o commit, com o arquivo como unstaged
 --mixed- ele vai pegar as modificações e voltar o commit, com o arquivo antes do staged
 --hard - vai resetar todo o commit
+
+Criando um repositorio no github
+cria o repositorio no github e faz o link com o seu pc
+na pasta, usando o bash vc dá o comando abaixo
+git remote add origin https://github.com/edunogodz/github-course.git
+e depois
+git remote - para ver q ja esta linkado
+git remote -v  - para ver os links
+
+git push -u origin master - para enviar o q ja tem na pasta pro github
+o -u eh pra nao precisar digitar mais
+o origin eh pra onde vai os arquivos
+o master e onde esta os arquivos
