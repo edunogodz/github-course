@@ -140,3 +140,19 @@ git push -u origin master - para enviar o q ja tem na pasta pro github
 o -u eh pra nao precisar digitar mais
 o origin eh pra onde vai os arquivos
 o master e onde esta os arquivos
+
+Clonando repositorios
+para clonar, copia o link
+git clone https://github.com/edunogodz/github-course.git github-course-clone
+
+Branch
+git checkout -b testing
+
+para ver os branchs
+git branch
+
+para ir para ele
+git checkout testing
+
+para apagar
+git branch -D testing
